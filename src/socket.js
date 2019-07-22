@@ -63,7 +63,8 @@ const onRedditUpdates = (socket, submission, sub) => {
   if (socket) {
     socket.emit('onRedditUpdates', {
       url: submission.url,
-      name: sub.display_name_prefixed
+      name: sub.display_name_prefixed,
+      reddit: `https://reddit.com/${sub.display_name_prefixed}`
     })
   }
 }
