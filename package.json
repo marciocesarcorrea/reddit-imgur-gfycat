@@ -9,7 +9,7 @@
     "express": "^4.17.1",
     "gfycat-sdk": "^1.4.18",
     "imgur": "https://github.com/marciocesarcorrea/node-imgur",
-    "lodash": "^4.17.14",
+    "lodash": "^4.17.19",
     "mongoose": "^5.6.4",
     "snoowrap": "^1.17.0",
     "socket.io": "^2.2.0",
